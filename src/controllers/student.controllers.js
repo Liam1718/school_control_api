@@ -1,4 +1,4 @@
-import studentsDAOS from "../daos/student.daos.js";
+import studentsDAOS from "../DAOs/student.daos.js";
 
 const studentsControllers = {};
 
