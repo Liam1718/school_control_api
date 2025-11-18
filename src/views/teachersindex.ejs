@@ -167,10 +167,10 @@
                                     <%= teacher.years_of_service %>
                                 </td>
                                 <td>
-                                    <a href="/api/teachers/getOne/<%= teacher.student_id %>" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></a>
+                                    <a href="/api/teachers/getOne/<%= teacher.teacher_id %>" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></a>
                                 </td>
                                 <td>
-                                    <a href="/api/teachers/deleteOne/<%= teacher.student_id %>" class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i></a>
+                                    <a href="/api/teachers/deleteOne/<%= teacher.teacher_id %>" class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i></a>
                                 </td>
                             </tr>
                             <% }); %>
