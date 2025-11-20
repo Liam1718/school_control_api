@@ -117,8 +117,9 @@
                 </div>
             </div>
             <div class="col-lg-7">
-                <!--Tabla-->
-                <table class="table table-striped table-hover">
+                <!--Aqui va la tabla-->
+                <!--<h2>Tabla</h2>-->
+                <table class="table table-striped table-hover table-responsive">
                     <thead>
                         <tr>
                             <th># de Control</th>
@@ -152,10 +153,10 @@
                                     <%= student.average %>
                                 </td>
                                 <td>
-                                    <a href="/api/students/getOne/<%= student.student_id %>" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-fill"></i></a>
+                                    <a class="btn btn-warning btn-sm"><i class="bi bi-pencil-fill"></i></a>
                                 </td>
                                 <td>
-                                    <a href="/api/students/deleteOne/<%= student.student_id %>" class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i></a>
+                                    <a class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i></a>
                                 </td>
                             </tr>
                             <% }); %>
